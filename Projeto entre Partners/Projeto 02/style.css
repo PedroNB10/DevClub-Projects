@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     font-family: 'Roboto', sans-serif;
+    
 }
 
 .container{
@@ -35,21 +36,29 @@
     width: 12vw;
     border-radius: 25px;
     border: none;
-    box-shadow: 0px 5px 5px;
+    background: rgb(238, 34, 160);
+    color: white;
+    
+    box-shadow: 0px 0px 29px -9px rgba(0,0,0,0.59);
+    -webkit-box-shadow: 0px 0px 29px -9px rgba(0,0,0,0.59);
+    -moz-box-shadow: 0px 0px 29px -9px rgba(0,0,0,0.59);
+    cursor: pointer;
+    font-size: 16px;
+   
 }
 
-.container header button :hover{
-
+.container header button:hover{  /*Quando passa o cursor por cima muda de cor*/
+    background: rgb(240, 25, 204);
 }
 
-.container header button :active{
-
+.container header button:active{ /* Quando clica muda de cor*/ 
+    background: rgb(243, 88, 184);
 }
 
 .secondContainer{
-    display: flex;
+    display: flex; /* deixa as coisas dentro do container uma do lado da outra*/
     padding: 30px;
-    gap: 20px;
+    gap: 100px; 
     
 
 }
@@ -61,39 +70,51 @@
 }
 
 
+
+
+
+
 .imagechat{
 width: 50vw;
 }
 
 .about h1 {
-color: black;
+    color: rgb(7, 5, 92);
+    padding-top: 157px;
 }
 
 .about p {
     font-size: 16px;
     font-weight: 400;
-    color: gray;
+    color: rgb(11, 9, 124);
+     
 
 }
 
 .about button{
     width: 21vw;
     height: 6vh;
+    font-size: 16px;
     border: none;
     border-radius: 25px;
     background: rgb(238, 34, 160);
     cursor: pointer;
     margin-left: 3vw;
     color: white;
+    box-shadow: 0px 0px 29px -9px rgba(0,0,0,0.59);
+    -webkit-box-shadow: 0px 0px 29px -9px rgba(0,0,0,0.59);
+    -moz-box-shadow: 0px 0px 29px -9px rgba(0,0,0,0.59);
+
 
 }
 
 .about button:hover{
-    background: rgb(255, 155, 217);
+    background: rgb(240, 25, 204);
+  
 }
 
 .about button:active{
-    background: rgb(255, 155, 217);
+    background: rgb(243, 88, 184);
 }
 
 
