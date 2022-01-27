@@ -1,0 +1,137 @@
+*{ /* é como se fosse o body*/
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+.container{
+    background: turquoise;
+    background-image: url("./images/backgroundimageDesktop.svg");
+    background-repeat: no-repeat; /* serve para nao repetir*/
+    background-size: cover; /* cobre toda a parte da div*/
+    height: 80%;
+   
+   
+   
+}
+
+/*comentario 2*/
+.container header { /* jeito de navegar*/
+    display: flex;
+    align-items: center; /* centro vertical*/
+    justify-content: space-between;
+    padding: 30px;
+    
+   
+
+}
+
+.container header img {
+    width: 20vh;
+}
+
+.container header button{
+    background-color: rgb(255, 255, 255);
+    height: 5vh;
+    width: 12vw;
+    border-radius: 25px;
+    border: none;
+    background: rgb(238, 34, 160);
+    color: white;
+    margin-right: 30px;
+    
+    box-shadow: 0px 0px 29px -9px rgba(0,0,0,0.59);
+    -webkit-box-shadow: 0px 0px 29px -9px rgba(0,0,0,0.59);
+    -moz-box-shadow: 0px 0px 29px -9px rgba(0,0,0,0.59);
+    cursor: pointer;
+    font-size: 16px;
+   
+}
+
+.container header button:hover{  /*Quando passa o cursor por cima muda de cor*/
+    background: rgb(240, 25, 204);
+}
+
+.container header button:active{ /* Quando clica muda de cor*/ 
+    background: rgb(243, 88, 184);
+}
+
+.secondContainer{
+    display: flex; /* deixa as coisas dentro do container uma do lado da outra*/
+    padding: 30px;
+    gap: 100px; 
+    
+
+}
+
+.about{
+    display: flex;
+    flex-direction: column;
+  
+}
+
+
+
+.about, .caixa_imagem {
+    width: 35%;
+
+}
+
+
+/* .imagechat{
+padding-left: 420px;
+width: 40vw;
+} */
+
+
+
+.about h1 {
+    color: rgb(7, 5, 92);
+    padding-top: 120px;
+    padding-bottom: 30px;
+}
+
+.about p {
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(11, 9, 124);
+    max-width: 440px; /*tamanho q ocupa na linha*/
+     
+
+}
+
+.about button{
+    width: 17vw;
+    height: 6vh;
+    margin-top: 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 25px;
+    background: rgb(238, 34, 160);
+    cursor: pointer;
+    
+    color: white;
+    box-shadow: 0px 0px 29px -9px rgba(0,0,0,0.59);
+    -webkit-box-shadow: 0px 0px 29px -9px rgba(0,0,0,0.59);
+    -moz-box-shadow: 0px 0px 29px -9px rgba(0,0,0,0.59);
+
+
+
+}
+
+.about button:hover{
+    background: rgb(240, 25, 204);
+  
+}
+
+.about button:active{
+    background: rgb(243, 88, 184);
+}
+
+
+
+
+
+
+
