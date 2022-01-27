@@ -1,0 +1,104 @@
+*{ /* é como se fosse o body*/
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container{
+    background: turquoise;
+    background-image: url("./images/backgroundimageDesktop.svg");
+    background-repeat: no-repeat; /* serve para nao repetir*/
+    background-size: cover; /* cobre toda a parte da div*/
+    height: 80vh;
+   
+   
+   
+}
+
+.container header { /* jeito de navegar*/
+    display: flex;
+    align-items: center; /* centro vertical*/
+    justify-content: space-between;
+    padding: 30px;
+    
+   
+
+}
+
+.container header img {
+    width: 20vh;
+}
+
+.container header button{
+    background-color: grey;
+    height: 7vh;
+    width: 18vw;
+    border-radius: 25px;
+    border: none;
+    box-shadow: 0px 5px 5px;
+}
+
+.container header button :hover{
+
+}
+
+.container header button :active{
+
+}
+
+.secondContainer{
+    display: flex;
+    padding: 30px;
+    gap: 20px;
+    
+
+}
+
+.about{
+    display: flex;
+    flex-direction: column;
+  
+}
+
+
+.imagechat{
+width: 50vw;
+}
+
+.about h1 {
+color: black;
+}
+
+.about p {
+    font-size: 16px;
+    font-weight: 400;
+    color: gray;
+
+}
+
+.about button{
+    width: 21vw;
+    height: 6vh;
+    border: none;
+    border-radius: 25px;
+    background: rgb(238, 34, 160);
+    cursor: pointer;
+    margin-left: 3vw;
+    color: white;
+
+}
+
+.about button:hover{
+    background: rgb(255, 155, 217);
+}
+
+.about button:active{
+    background: rgb(255, 155, 217);
+}
+
+
+
+
+
+
+
