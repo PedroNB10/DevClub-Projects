@@ -38,6 +38,7 @@
     border: none;
     background: rgb(238, 34, 160);
     color: white;
+    margin-right: 30px;
     
     box-shadow: 0px 0px 29px -9px rgba(0,0,0,0.59);
     -webkit-box-shadow: 0px 0px 29px -9px rgba(0,0,0,0.59);
@@ -71,40 +72,49 @@
 
 
 
+.about, .caixa_imagem {
+    width: 35%;
 
-
-
-.imagechat{
-padding-left: 350px;
-width: 40vw;
 }
+
+
+/* .imagechat{
+padding-left: 420px;
+width: 40vw;
+} */
+
+
 
 .about h1 {
     color: rgb(7, 5, 92);
     padding-top: 120px;
+    padding-bottom: 30px;
 }
 
 .about p {
     font-size: 16px;
     font-weight: 400;
     color: rgb(11, 9, 124);
+    max-width: 440px; /*tamanho q ocupa na linha*/
      
 
 }
 
 .about button{
-    width: 21vw;
+    width: 17vw;
     height: 6vh;
+    margin-top: 20px;
     font-size: 16px;
     border: none;
     border-radius: 25px;
     background: rgb(238, 34, 160);
     cursor: pointer;
-    margin-left: 3vw;
+    
     color: white;
     box-shadow: 0px 0px 29px -9px rgba(0,0,0,0.59);
     -webkit-box-shadow: 0px 0px 29px -9px rgba(0,0,0,0.59);
     -moz-box-shadow: 0px 0px 29px -9px rgba(0,0,0,0.59);
+
 
 
 }
