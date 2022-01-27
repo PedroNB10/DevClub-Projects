@@ -75,12 +75,13 @@
 
 
 .imagechat{
-width: 50vw;
+padding-left: 350px;
+width: 40vw;
 }
 
 .about h1 {
     color: rgb(7, 5, 92);
-    padding-top: 157px;
+    padding-top: 120px;
 }
 
 .about p {
