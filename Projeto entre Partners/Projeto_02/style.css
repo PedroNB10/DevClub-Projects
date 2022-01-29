@@ -7,12 +7,12 @@
 }
 
 .container{
-    background: rgba(237,251,254,255);
+    background: black; /*cor original: rgba(237,251,254,255) */
     
     background-repeat: no-repeat; /* serve para nao repetir*/
     background-size: cover; /* cobre toda a parte da div*/
     background-image: url("./images/backgroundimageDesktop.svg");
-    height: 80%;
+    height: 100vh;
    
    
    
@@ -79,7 +79,8 @@
 
 .imagechat{
     
-    height: 70vh;
+   
+    height: 80;
     padding-right: 3vw;
 
   
