@@ -165,31 +165,16 @@ width: 40vw;
     box-shadow: 0px 0px 29px -9px rgba(0,0,0,0.59);
     -webkit-box-shadow: 0px 0px 29px -9px rgba(0,0,0,0.59);
     -moz-box-shadow: 0px 0px 29px -9px rgba(0,0,0,0.59);
-    margin-bottom: 300px;
+    margin-bottom: 30px;/*separa os containers de informação*/
 }
 
-.text-inside-box{
+.first-text-inside-box{
     display: flex;/* deixa as coisas dentro do container uma do lado da outra*/
     flex-direction: column;
     justify-content: center;
 }
 
-.title-default{
-   
-    margin-left: 23%;
-    color: #05232b;
-    max-width: 370px;
-}
 
-.text-default{
-    padding-top:10px;
-    margin-left: 23%;
-    font-size: 16px;
-    font-weight: 400;
-    color:#A3a8ab;
-    max-width: 550px; /*tamanho q ocupa na linha*/
-    
-}
 
 .image-grow-together{
 height: 50vh;
@@ -197,6 +182,91 @@ padding-left: 13vw;
 padding-top: 3vh;
 
 }
+
+.second-info-container{
+
+    margin: auto;
+    display: flex;
+    width: 85vw;
+    height: 60vh;
+    background-color: rgb(255, 255, 255);
+    border-radius: 12px;
+    box-shadow: 0px 0px 29px -9px rgba(0,0,0,0.59);
+    -webkit-box-shadow: 0px 0px 29px -9px rgba(0,0,0,0.59);
+    -moz-box-shadow: 0px 0px 29px -9px rgba(0,0,0,0.59);
+    margin-bottom: 30px;/*separa os containers de informação*/
+}
+
+.image-flowing-conversations{
+    height: 40vh;
+    padding-left: 10vw;
+    padding-top: 10vh;
+    
+
+    
+    }
+
+    .second-text-inside-box{
+        display: flex;/* deixa as coisas dentro do container uma do lado da outra*/
+        flex-direction: column;
+        justify-content: center;
+    }
+
+
+
+    .third-info-container{
+
+        margin: auto;
+        display: flex;
+        width: 85vw;
+        height: 60vh;
+        background-color: rgb(255, 255, 255);
+        border-radius: 12px;
+        box-shadow: 0px 0px 29px -9px rgba(0,0,0,0.59);
+        -webkit-box-shadow: 0px 0px 29px -9px rgba(0,0,0,0.59);
+        -moz-box-shadow: 0px 0px 29px -9px rgba(0,0,0,0.59);
+        margin-bottom: 30px;/*separa os containers de informação*/
+    }
+    
+    .third-text-inside-box{
+        display: flex;/* deixa as coisas dentro do container uma do lado da outra*/
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    
+    
+    .image-your-users{
+    height: 42vh;
+    padding-left: 13vw;
+    padding-top: 9vh;
+    
+    }
+
+
+
+
+
+
+    /*default patterns:*/
+
+    .title-default{
+   
+        margin-left: 23%;
+        color: #05232b;
+        max-width: 370px;
+    }
+    
+    .text-default{
+        padding-top:10px;
+        margin-left: 23%;
+        font-size: 16px;
+        font-weight: 400;
+        color:#A3a8ab;
+        max-width: 550px; /*tamanho q ocupa na linha*/
+        
+    }
+    
 
 
 
