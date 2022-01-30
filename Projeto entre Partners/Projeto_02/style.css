@@ -33,7 +33,7 @@
     display: flex;
     align-items: center; /* centro vertical*/
     justify-content: space-between;
-    padding: 30px;
+    padding: 25px;
     
    
 
@@ -81,18 +81,27 @@
 .about{
     display: flex; /* deixa as coisas dentro do container uma do lado da outra*/
     flex-direction: column;
-    width: 50%;
+    /* width: 50%; */
 }
 
 
 
 
+.about {
+   width: 55%;
+   padding-left:6%;
+}
+
+.caixa_imagem{
+    width: 45%;
+    padding-right:6%;
+}
 
 .imagechat{
     
    
     height: 73vh;
-    padding-right: 3vw;
+    
 
   
 }
@@ -108,19 +117,20 @@ width: 40vw;
 
 
 .about h1 { /*Esse é o título cima*/
-    margin-left: 16%;
+    
     color: #05232b;
     padding-top: 120px;
     padding-bottom: 30px;
+    font-weight: 600;
     max-width: 370px;
 }
 
 .about p {
-    margin-left: 16%;
-    font-size: 16px;
-    font-weight: 400;
+   
+    font-size: 15px;
+    font-weight: 300;
     color:#41565a;
-    max-width: 440px; /*tamanho q ocupa na linha*/
+    max-width: 400px ; /*tamanho q ocupa na linha*/
      
 
 }
