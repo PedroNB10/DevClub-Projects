@@ -21,6 +21,7 @@
     background-size: cover; /* cobre toda a parte da div*/
     background-image: url("./images/backgroundimageDesktop.svg");
     height: 100vh;
+    margin-bottom: 22vh;/*separa o .container do .first-info-container*/
    
    
    
@@ -154,10 +155,11 @@ width: 40vw;
 }
 
 .first-info-container{
+
     margin: auto;
     display: flex;
     width: 85vw;
-    height: 70vh;
+    height: 60vh;
     background-color: rgb(255, 255, 255);
     border-radius: 12px;
     box-shadow: 0px 0px 29px -9px rgba(0,0,0,0.59);
@@ -192,7 +194,7 @@ width: 40vw;
 .image-grow-together{
 height: 50vh;
 padding-left: 13vw;
-padding-top: 8vh;
+padding-top: 3vh;
 
 }
 
