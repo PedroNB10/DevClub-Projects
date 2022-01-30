@@ -6,8 +6,16 @@
     
 }
 
+.logo-huddle{
+    margin-top: 2%;
+    margin-left: 6%;
+    
+    
+    
+}
+
 .container{
-    background: black; /*cor original: rgba(237,251,254,255) */
+    background:  rgba(237,251,254,255); /*cor original: rgba(237,251,254,255) */
     
     background-repeat: no-repeat; /* serve para nao repetir*/
     background-size: cover; /* cobre toda a parte da div*/
@@ -20,6 +28,7 @@
 
 /*comentario 2*/
 .container header { /* jeito de navegar*/
+    
     display: flex;
     align-items: center; /* centro vertical*/
     justify-content: space-between;
@@ -35,13 +44,13 @@
 
 .container header button{
     background-color: rgb(255, 255, 255);
-    height: 5vh;
+    height: 7vh;
     width: 12vw;
     border-radius: 25px;
     border: none;
     background: rgb(238, 34, 160);
     color: white;
-    margin-right: 30px;
+    margin-right: 5%;
     
     box-shadow: 0px 0px 29px -9px rgba(0,0,0,0.59);
     -webkit-box-shadow: 0px 0px 29px -9px rgba(0,0,0,0.59);
@@ -63,6 +72,7 @@
     display: flex; /* deixa as coisas dentro do container uma do lado da outra*/
     padding: 30px;
     gap: 100px; 
+    padding-top: 3%;
     
 
 }
@@ -80,7 +90,7 @@
 .imagechat{
     
    
-    height: 80vh;
+    height: 73vh;
     padding-right: 3vw;
 
   
@@ -97,6 +107,7 @@ width: 40vw;
 
 
 .about h1 {
+    margin-left: 16%;
     color: #05232b;
     padding-top: 120px;
     padding-bottom: 30px;
@@ -104,6 +115,7 @@ width: 40vw;
 }
 
 .about p {
+    margin-left: 16%;
     font-size: 16px;
     font-weight: 400;
     color:#41565a;
@@ -114,13 +126,14 @@ width: 40vw;
 
 .about button{
     width: 17vw;
-    height: 6vh;
+    height: 8vh;
     margin-top: 20px;
     font-size: 16px;
     border: none;
     border-radius: 25px;
     background: rgb(238, 34, 160);
     cursor: pointer;
+    margin-left: 16%;
     
     color: white;
     box-shadow: 0px 0px 29px -9px rgba(0,0,0,0.59);
