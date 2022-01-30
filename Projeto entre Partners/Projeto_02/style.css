@@ -107,7 +107,7 @@ width: 40vw;
 
 
 
-.about h1 {
+.about h1 { /*Esse é o título cima*/
     margin-left: 16%;
     color: #05232b;
     padding-top: 120px;
@@ -225,13 +225,14 @@ padding-top: 3vh;
         box-shadow: 0px 0px 29px -9px rgba(0,0,0,0.59);
         -webkit-box-shadow: 0px 0px 29px -9px rgba(0,0,0,0.59);
         -moz-box-shadow: 0px 0px 29px -9px rgba(0,0,0,0.59);
-        margin-bottom: 30px;/*separa os containers de informação*/
+        
     }
     
     .third-text-inside-box{
         display: flex;/* deixa as coisas dentro do container uma do lado da outra*/
         flex-direction: column;
         justify-content: center;
+     
     }
     
     
@@ -241,6 +242,43 @@ padding-top: 3vh;
     padding-left: 13vw;
     padding-top: 9vh;
     
+    }
+
+    .final-box{
+       
+     
+     position: absolute;
+     background-color: rgb(255, 255, 255);
+     border-radius: 12px;
+     box-shadow: 0px 0px 29px -9px rgba(0,0,0,0.59);
+     -webkit-box-shadow: 0px 0px 29px -9px rgba(0,0,0,0.59);
+     -moz-box-shadow: 0px 0px 29px -9px rgba(0,0,0,0.59);
+  
+     height: 45vh;
+     width: 50vw;
+
+    margin-top:125px;/*Serve para colocar a final box dentro do footer*/
+  
+      
+    }
+
+  
+    .footer-white {
+     
+        margin-bottom: 270px;/*separa os containers de informação*/
+        height: 10px;
+        width: 100vw;
+        margin-top: 100px; /*distancia entre o final box e o third box*/
+        
+    }
+
+    footer{
+        height: 60vh;
+        width: 100%;
+        background-color: rgba(0,37,46,255);
+    
+    
+     
     }
 
 
