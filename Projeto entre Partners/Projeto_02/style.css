@@ -78,7 +78,7 @@
 }
 
 .about{
-    display: flex;
+    display: flex; /* deixa as coisas dentro do container uma do lado da outra*/
     flex-direction: column;
     width: 50%;
 }
@@ -152,6 +152,51 @@ width: 40vw;
 .about button:active{
     background: rgb(243, 88, 184);
 }
+
+.first-info-container{
+    margin: auto;
+    display: flex;
+    width: 85vw;
+    height: 70vh;
+    background-color: rgb(255, 255, 255);
+    border-radius: 12px;
+    box-shadow: 0px 0px 29px -9px rgba(0,0,0,0.59);
+    -webkit-box-shadow: 0px 0px 29px -9px rgba(0,0,0,0.59);
+    -moz-box-shadow: 0px 0px 29px -9px rgba(0,0,0,0.59);
+    margin-bottom: 300px;
+}
+
+.text-inside-box{
+    display: flex;/* deixa as coisas dentro do container uma do lado da outra*/
+    flex-direction: column;
+    justify-content: center;
+}
+
+.title-default{
+   
+    margin-left: 23%;
+    color: #05232b;
+    max-width: 370px;
+}
+
+.text-default{
+    padding-top:10px;
+    margin-left: 23%;
+    font-size: 16px;
+    font-weight: 400;
+    color:#A3a8ab;
+    max-width: 550px; /*tamanho q ocupa na linha*/
+    
+}
+
+.image-grow-together{
+height: 50vh;
+padding-left: 13vw;
+padding-top: 8vh;
+
+}
+
+
 
 
 

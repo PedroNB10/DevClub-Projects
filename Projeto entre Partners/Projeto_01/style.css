@@ -3,7 +3,7 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    box-sizing:border-box;
     
     font-family: 'Roboto', sans-serif;
    
@@ -69,7 +69,7 @@
     background-color: cornsilk;   
 
     padding-left: 5px;
-    color: ;
+    
     font-size: 14px;
 }
 
