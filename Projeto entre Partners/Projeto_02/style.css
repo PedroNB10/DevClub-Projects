@@ -268,7 +268,7 @@ padding-top: 3vh;
      
         margin-bottom: 270px;/*separa os containers de informação*/
         height: 10px;
-        width: 100vw;
+        width: 100%;
       /*  margin-top: 100px; distancia entre o final box e o third box*/
         
     }
