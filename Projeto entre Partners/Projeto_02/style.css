@@ -247,7 +247,7 @@ padding-top: 3vh;
     .final-box{
        
      display: flex;
-     margin-left: 50vh;  
+     margin-left: 50vh;  /*dessa maneira consegui centralizar a final box*/
      position: absolute;
      background-color: rgb(255, 255, 255);
      border-radius: 12px;
@@ -269,7 +269,7 @@ padding-top: 3vh;
         margin-bottom: 270px;/*separa os containers de informação*/
         height: 10px;
         width: 100vw;
-        margin-top: 100px; /*distancia entre o final box e o third box*/
+      /*  margin-top: 100px; distancia entre o final box e o third box*/
         
     }
 
